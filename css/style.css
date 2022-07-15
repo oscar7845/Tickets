@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-   --main-color:#8e44ad;
+   --main-color: #4668a4;
    --black: #0f1a2a;
    --white:#fff;
    --light-black:#777;
@@ -504,22 +504,22 @@ section{
    margin-top: 2rem;
 }
 
-.booking .book-form{
+.contact1 .contact-form{
    padding:2rem;
    background: var(--light-bg);
 }
 
-.booking .book-form .flex{
+.contact1 .contact-form .flex{
    display: flex;
    flex-wrap: wrap;
    gap:2rem;
 }
 
-.booking .book-form .flex .inputBox{
+.contact1 .contact-form .flex .inputBox{
    flex:1 1 41rem;
 }
 
-.booking .book-form .flex .inputBox input{
+.contact1 .contact-form .flex .inputBox input{
    width: 100%;
    padding:1.2rem 1.4rem;
    font-size: 1.6rem;
@@ -529,21 +529,21 @@ section{
    border:var(--border);
 }
 
-.booking .book-form .flex .inputBox input:hover{
+.contact1 .contact-form .flex .inputBox input:hover{
    background: var(--black);
    color:var(--white);
 }
 
-.booking .book-form .flex .inputBox input:focus::placeholder{
+.contact1 .contact-form .flex .inputBox input:focus::placeholder{
    color:var(--light-white);
 }
 
-.booking .book-form .flex .inputBox span{
+.contact1 .contact-form .flex .inputBox span{
    font-size: 1.5rem;
    color:var(--light-black);
 }
 
-.booking .book-form .btn{
+.contact1 .contact-form .btn{
    margin-top: 2rem;
 }
 .field{
